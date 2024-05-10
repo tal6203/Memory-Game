@@ -45,7 +45,8 @@ function create_game() {
         fetch("https://dog.ceo/api/breeds/image/random/8")
             .then((response) => response.json())
             .then((data) => {
-                const newImages = data.message;
+                console.log(data)
+                const newImages = data.message
                 const copyNewImages = [...newImages];
                 game_data.face = newImages.concat(copyNewImages);
                 fetchImagesBtn.setAttribute("class", "bord");
