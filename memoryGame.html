@@ -4,39 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>&#9733; Memory Game &#9733;</title>
+    <title>⭐ Memory Game ⭐</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>&#9733; Memory Game &#9733;</h1>
-    <button id="fetchImagesBtn" type="button">Fetch Images from API</button>
-    <button id="useProgramImagesBtn" type="button">Use Program Images</button>
-    <table>
-      <tr>
-        <td><img id="img_1" src="img/back_card.png" /></td>
-        <td><img id="img_2" src="img/back_card.png" /></td>
-        <td><img id="img_3" src="img/back_card.png" /></td>
-        <td><img id="img_4" src="img/back_card.png" /></td>
-      </tr>
-      <tr>
-        <td><img id="img_5" src="img/back_card.png" /></td>
-        <td><img id="img_6" src="img/back_card.png" /></td>
-        <td><img id="img_7" src="img/back_card.png" /></td>
-        <td><img id="img_8" src="img/back_card.png" /></td>
-      </tr>
-      <tr>
-        <td><img id="img_9" src="img/back_card.png" /></td>
-        <td><img id="img_10" src="img/back_card.png" /></td>
-        <td><img id="img_11" src="img/back_card.png" /></td>
-        <td><img id="img_12" src="img/back_card.png" /></td>
-      </tr>
-      <tr>
-        <td><img id="img_13" src="img/back_card.png" /></td>
-        <td><img id="img_14" src="img/back_card.png" /></td>
-        <td><img id="img_15" src="img/back_card.png" /></td>
-        <td><img id="img_16" src="img/back_card.png" /></td>
-      </tr>
-    </table>
+    <h1>⭐ Memory Game ⭐</h1>
+    <div class="button-container">
+      <button id="fetchImagesBtn" type="button">Fetch Images from API</button>
+      <button id="useProgramImagesBtn" type="button">Use Program Images</button>
+    </div>
+    <div class="game-board">
+      <div class="card" id="img_1"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_2"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_3"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_4"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_5"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_6"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_7"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_8"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_9"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_10"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_11"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_12"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_13"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_14"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_15"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+      <div class="card" id="img_16"><div class="card-inner"><div class="card-front"></div><div class="card-back"></div></div></div>
+    </div>
     <div id="result"></div>
     <script src="script.js"></script>
   </body>
