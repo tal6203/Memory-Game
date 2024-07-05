@@ -1,4 +1,3 @@
-
 # 🧠 Memory Game
 
 Welcome to the Memory Game repository! This project is a fun and interactive memory matching game built using HTML, CSS, and JavaScript.
